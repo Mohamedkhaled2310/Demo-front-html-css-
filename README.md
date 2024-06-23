@@ -39,7 +39,7 @@ MohamedKhaledDemo/ │ ├── index.html ├── style.css ├── script
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/MohamedKhaledDemo.git
+    git clone https://github.com/mohamedkhaled2310/MohamedKhaledDemo.git
     ```
 
 2. Open `index.html` in your web browser to view the webpage.
