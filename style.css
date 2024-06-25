@@ -25,7 +25,9 @@
     background: grey;
 }
 /* end of scroll styling  */
-
+ :root{
+    --button-color:grey;
+ }
 
 nav {
 
@@ -94,7 +96,7 @@ nav .menu-btn {
 }
 
 .navbar .menu .menu-btn {
-    color: grey;
+    color: var(--button-color);
 }
 
 
@@ -144,7 +146,7 @@ nav .menu-btn {
     text-decoration: none;
     font-size: 40px;
     border: 2px solid black;
-    background-color: gray;
+    background-color: var(--button-color);
     border-radius: 0.9em;
     padding: 0.8em 1.2em 0.8em 1em;
     transition: all ease-in-out 0.2s;
@@ -162,24 +164,26 @@ nav .menu-btn {
    }
 
 .services{
-    background-color: grey;
+    background-color:grey;
 }
 
 
 .cards {
     display: flex;
     width: 100%;
+  
   }
   .member {
     box-sizing: border-box;
     padding: 10px;
     transition: all .5s ease-in-out;
+
   }
   .member:hover{
        transform: scale(1.1);
   }
   .member h3 {
-    color: var(--main-color);
+    color: grey;
     font-size: 20px;
   }
   .child {
@@ -255,7 +259,7 @@ nav .menu-btn {
     border-radius: 4px;
     font-size: 25px;
     font-weight: 400;
-    background: grey;
+    background: var(--button-color);
     color: #fff;
     border: 2px solid transparent;
     cursor: pointer;
@@ -263,9 +267,9 @@ nav .menu-btn {
 }
 
 .button1:hover {
-    border-color: grey;
+    border-color: var(--button-color);
     background-color: #fff;
-    color: grey;
+    color: var(--button-color);
 }
 
 .myImg{
@@ -306,8 +310,8 @@ nav .menu-btn {
 .card-youtube a {
     text-decoration: none;
     color: whitesmoke;
-    background-color: grey;
-    border: 5px solid grey;
+    background-color: var(--button-color);
+    border: 5px solid var(--button-color);
     border-radius: 3px;
     font-size: 16px;      
 }
@@ -377,7 +381,7 @@ nav .menu-btn {
 }
 
 .contact-form button {
-    background-color: grey;
+    background-color: var(--button-color);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -389,7 +393,7 @@ nav .menu-btn {
 
 .contact-form button:hover {
     background-color: whitesmoke;
-    color: grey;
+    color: var(--button-color);
     border: 3px solid grey;
 }
 
@@ -419,7 +423,7 @@ nav .menu-btn {
     nav .navbar .menu a {
         font-size: 23px;
         display: block;
-        color: grey;
+        color: var(--button-color);
         margin: 10px 0;
     }
 
